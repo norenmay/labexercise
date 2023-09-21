@@ -7,7 +7,6 @@ class Welcome extends CI_Controller {
 	{
 		parent::__construct();
 		$this->load->helper('html');
-		//dito ko dineclare yung model at ganito ang syntax nya para mag load ng model
 		$this->load->model("Allmodel");
 	}
 
@@ -39,10 +38,7 @@ class Welcome extends CI_Controller {
 		}
 		else
 		{
-			//ito yung false
-			//other wise dito sya mag fall gets m na?
-			//pag click ko ng save dito sya nag fall kase required lahat ang textbox
-			//kung nakita mo nawala yung red sa firstname kase nag input ako ng ryan dun
+			
 			$this->index();
 		}
 	}
@@ -78,10 +74,7 @@ class Welcome extends CI_Controller {
 		}
 		else
 		{
-			//ito yung false
-			//other wise dito sya mag fall gets m na?
-			//pag click ko ng save dito sya nag fall kase required lahat ang textbox
-			//kung nakita mo nawala yung red sa firstname kase nag input ako ng ryan dun
+			
 			$this->update();
 		}
 	}

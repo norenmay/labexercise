@@ -73,16 +73,7 @@
     </tr>
   </thead>
   <tbody>
-    <!-- dito namn ganito mag display ng data mo galing sa controller mo
-         kung mapansin mo merong $display na nka sulat kung matandaan mo
-         yan yung na declare natin sa controller mo yung $data["display"]
-         tapos need m foreach para mag loop sya then nag assign din ako ng $row
-         para mag hiwalay hiwalay na lahat ng nka array sa loob ng $display
-         tapos kung mapansin mo $row na ang pag disimenate ko sa mga td nya
-         then sa loon nung "" is yung column name dun sa database mo and ok na
-         yan yung procedure para mag link ang MODEL,VIEW,CONTROLLER so nagamit nyu
-         na ang MVC ng codeigniter. :)
-    --> 
+  
     <?php foreach($display as $row){ ?>
     <tr>
       <td><?=$row["student_number"]?></td>
